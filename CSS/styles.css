@@ -19,7 +19,6 @@ body {
 #container {
     max-width: 800px;
     margin: 40px auto;
-    padding: 20px;
     text-align: center;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(3px);
@@ -28,7 +27,6 @@ body {
 #container2 {
     max-width: 1400px;
     margin: 40px auto;
-    padding: 20px;
     text-align: center;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(3px);
@@ -209,3 +207,4 @@ footer {
         letter-spacing: 1px;
     }
 }
+
