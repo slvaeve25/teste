@@ -1,0 +1,154 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   FONTES
+========================= */
+@font-face {
+    font-family: "BreathFire";
+    src: url("../fontes/breathfire.otf") format("opentype");
+    font-display: swap;
+}
+
+
+/* =========================
+   LAYOUT BASE
+========================= */
+body {
+    background: url("../IMGs/parede_tijolos.jpg") center/cover no-repeat fixed;
+    backdrop-filter: blur(3px);
+    color: wheat;
+}
+
+
+/* Container principal */
+#container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+}
+
+#container2 {
+    max-width: 1400px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+}
+
+
+/* =========================
+   HEADER / NAVEGAÇÃO
+========================= */
+header {
+    background-color: rgb(87, 1, 1);
+    font-family: "BreathFire";
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: darkred;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: crimson;
+    transform: scale(1.1);
+}
+
+
+/* =========================
+   CONTEÚDO
+========================= */
+section {
+    margin: 10px;
+}
+
+section h2 {
+    text-align: center;
+    font-family: "BreathFire";
+    margin: 2px;
+}
+
+section p {
+    font-size: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    line-height: 1.6;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+section img {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto 15px auto;
+    transition: 0.3s ease;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+/* Título específico de página */
+.castle h1 {
+    font-family: "BreathFire";
+    background: rgba(112, 128, 144, 0.8);
+    padding: 12px;
+    border-radius: 8px;
+    color: darkred;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   BOTÕES
+========================= */
+button {
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(112, 128, 144, 0.8);
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
